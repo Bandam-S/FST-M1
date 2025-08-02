@@ -1,0 +1,3 @@
+Create table Kevin(ID int, Name varchar2(20), City varchar2(20), Comission int);
+Desc kevin;
+

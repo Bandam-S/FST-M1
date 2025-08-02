@@ -1,0 +1,5 @@
+Column,Null?,Type
+ID, - ,NUMBER
+NAME, - ,VARCHAR2(20)
+CITY, - ,VARCHAR2(20)
+COMISSION, - ,NUMBER
