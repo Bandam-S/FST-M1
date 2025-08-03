@@ -1,0 +1,9 @@
+Insert into kevin values(02,'Randy','hyd',100);
+Insert into kevin values(02,'Randy','hyd',200);
+Insert into kevin values(03,'ravid','hyd',400);
+Insert into kevin values(04,'jhon','warangal',500);
+
+
+
+Select *from kevin;
+
