@@ -1,0 +1,4 @@
+alter table kevin add grade int;
+update kevin set grade=150;
+update kevin set grade = 200 where name='ravid';
+update kevin set grade = 300 where name='sandeep';
