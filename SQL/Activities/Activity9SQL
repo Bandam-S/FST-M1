@@ -1,0 +1,13 @@
+create table salesman(salesmanid int, salesmanname varchar2(20), city varchar2(20), comission int);
+insert into salesman values(5001,'james','london',10)
+insert into salesman values(5002,'myclon','paris',80)
+insert into salesman values(5004,'lauson','rome',40)
+insert into salesman values(5003,'lauson','sanjose',80)
+
+create table customer(customerid int,customername varchar2(20), city varchar2(20),grade int,salesman_id int)
+insert into customer values(5004,'jozy','florida',300,5004);
+insert into customer values(5003,'randy','hyd',100,5001);
+insert into customer values(3005,'kevin','newyork',200,5006);
+insert into customer values(3003,'john','california',400,5005);
+
+select a.customername AS "Customer Name", a.city, b.salesmanname AS "SalesMan",b.comission from customer a inner join salesman b on a.salesmanid=b.customerid;
